@@ -2,6 +2,7 @@
 
 @section('content')
     <h1>Список статей</h1>
+    <h2>TEST</h2>
     <h1><a href="{{ route('logout') }}">выйти</a></h1>
 <h2><a href="/articles/create">Добавить статью</a></h2>
     @foreach ($articles as $article)
